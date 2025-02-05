@@ -3,7 +3,7 @@
 
 ## **Projektbeschreibung**
 
-In diesem Projekt präsentiere ich mein Wissen, das ich in **HTML** und **CSS** angewendet habe. Die einzelnen Tage und Ordner dokumentieren meinen Lernfortschritt sowie verschiedene Themen und Techniken, die ich im Laufe der Zeit erarbeitet habe.
+In diesem Projekt präsentiere ich mein Wissen, das ich in **HTML** und **CSS** angewendet habe. Die einzelnen Tage und Ordner (https://github.com/elmin-hasanov/supercode) dokumentieren meinen Lernfortschritt sowie verschiedene Themen und Techniken, die ich im Laufe der Zeit erarbeitet habe.
 
 ## **Verwendete Technologien**
 
