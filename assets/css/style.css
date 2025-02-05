@@ -18,6 +18,8 @@
 
 html {
     font-family: Inter-Variable;
+    scroll-behavior: smooth;
+
 }
 
 /* header */
@@ -27,6 +29,10 @@ header {
     flex-direction: column;
     background-color: black;
     height: 100vh;
+}
+
+header .line {
+    width: 1px;
 }
 
 header .intro {
@@ -111,18 +117,152 @@ header .bear a:hover {
 
 /* Section */
 
-section {
+.history {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     background-color: black;
-
-}
-
-section h1 {
     color: #ffffff;
     font-family: Inter-Variable;
+    padding-left: 109px;
+    padding-top: 121px;
+}
+
+.history h1 {
     font-size: clamp(30px, 5vw + 20px, 97px);
     font-style: normal;
     font-weight: 700;
 }
 
+.history article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.history article img {
+    width: 31vw;
+    max-width: 448px;
+}
+
+.wild {
+    padding-top: 121px;
+    padding-bottom: 117px;
+}
+
+.wild :nth-of-type(1),
+.wild :nth-of-type(3),
+.wild :nth-of-type(5) {
+    font-size: clamp(12px, 2vw, 18px);
+    font-family: WorkSans-Variable; 
+    font-weight: 700;
+}
+
+.wild :nth-of-type(2),
+.wild :nth-of-type(4),
+.wild :nth-of-type(6) {
+    font-size: clamp(60px, 8vw, 86px);
+    font-weight: 700;
+    font-family: WorkSans-Variable;
+}
+
+/* Stuck in 
+the middle. */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.photo1 img {
+    position: relative;
+    max-width: 329px;
+    width: 27vw;
+    top: -3vw;
+    left: 60vw;
+    z-index: 2;
+}
+
+.photo2 img {
+    position: relative;
+    max-width: 274px;
+    width: 19vw;
+    top: 2vw;
+    left: 3vw;
+    z-index: 2;
+}
+
+.txt1 p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30vw;
+    font-weight: 400;
+    font-size: clamp(10px, 2vw, 15px);
+    line-height: 100%;
+}
+
+.txt1 p span {
+    font-size: clamp(40px, 6vw, 83px);
+    line-height: 100%;
+
+}
+
+.photo3 img {
+    position: relative;
+    max-width: 274px;
+    width: 19vw;
+    top: 3vw;
+    left: 81vw;
+    z-index: 2;
+}
+
+.photo4 img {
+    position: relative;
+    max-width: 329px;
+    width: 27vw;
+    top: 3vw;
+    left: 12vw;
+    z-index: 2;
+}
+
+.photo5 img {
+    position: relative;
+    max-width: 329px;
+    width: 27vw;
+    top: 1vw;
+    left: 60vw;
+    z-index: 2;
+}
+
+.photo6 img {
+    position: relative;
+    max-width: 274px;
+    width: 19vw;
+    top: 10vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+.txt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30vw;
+    font-weight: 400;
+    font-size: clamp(10px, 2vw, 15px);
+    line-height: 170%;
+}
+
+.photo7 img {
+    position: relative;
+    width: 30vw;
+    max-width: 438px;
+    top: 9vw;
+    left: 50vw;
+    z-index: 2;
+}
