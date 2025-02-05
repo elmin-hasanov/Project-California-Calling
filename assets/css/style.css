@@ -9,7 +9,12 @@
 }
 
 :root {
-    --text-color: #ffffff;
+    --cw: #ffffff;
+    --cb: #000000;
+    --fi: Inter-Variable;
+    --fw: WorkSans-Variable;
+
+
 }
 
 * {
@@ -17,9 +22,8 @@
 }
 
 html {
-    font-family: Inter-Variable;
+    font-family: var(--fi);
     scroll-behavior: smooth;
-
 }
 
 /* header */
@@ -27,7 +31,7 @@ html {
 header {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: var(--cb);
     height: 100vh;
 }
 
@@ -57,7 +61,7 @@ header .intro p {
 
 header .intro div p:nth-of-type(1) {
     color: white;
-    font-family: WorkSans-Variable;
+    font-family: var(--fw);
     font-size: clamp(14px, 2vw, 20px);
     font-weight: 400;
     letter-spacing: -0.5px;
@@ -66,7 +70,7 @@ header .intro div p:nth-of-type(1) {
 
 header .intro div p:nth-of-type(2) {
     color: white;
-    font-family: Inter-Variable;
+    font-family: var(--fi);
     font-size: clamp(40px, 8vw, 96px);
     font-weight: 700;
     margin: 0;
@@ -77,7 +81,7 @@ header .intro div p:nth-of-type(2) {
 
 header .intro div p:nth-of-type(3) {
     color: rgb(0, 0, 0);
-    font-family: WorkSans-Variable;
+    font-family: var(--fw);
     font-size: clamp(40px, 8vw, 96px);
     font-style: normal;
     font-weight: 700;
@@ -87,18 +91,18 @@ header .intro div p:nth-of-type(3) {
 
 header .intro div p:nth-of-type(4) {
     color: white;
-    font-family: WorkSans-Variable;
+    font-family: var(--fw);
     font-weight: 400;
     font-size: clamp(14px, 2vw, 20px);
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
 }
 
 header .bear {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px;
+    margin: 3.5vw;
     padding: 0;
 }
 
@@ -123,9 +127,9 @@ header .bear a:hover {
     max-width: 100%;
     background-color: black;
     color: #ffffff;
-    font-family: Inter-Variable;
-    padding-left: 109px;
-    padding-top: 121px;
+    font-family: var(--fi);
+    padding-left: 7.56vw;
+    padding-top: 18.08vh;
 }
 
 .history h1 {
@@ -134,27 +138,26 @@ header .bear a:hover {
     font-weight: 700;
 }
 
-.history article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.history article img {
-    width: 31vw;
+.history img {
+    width: 38vw;
     max-width: 448px;
+    position: relative;
+    top: -10vw;
+    left: -2vw;
+    z-index: 2;
 }
 
 .wild {
+    display: flex;
+    justify-content: space-between;
     padding-top: 121px;
-    padding-bottom: 117px;
 }
 
 .wild :nth-of-type(1),
 .wild :nth-of-type(3),
 .wild :nth-of-type(5) {
     font-size: clamp(12px, 2vw, 18px);
-    font-family: WorkSans-Variable; 
+    font-family: var(--fw); 
     font-weight: 700;
 }
 
@@ -163,7 +166,7 @@ header .bear a:hover {
 .wild :nth-of-type(6) {
     font-size: clamp(60px, 8vw, 86px);
     font-weight: 700;
-    font-family: WorkSans-Variable;
+    font-family: var(--fw);
 }
 
 /* Stuck in 
