@@ -1,14 +1,14 @@
 # Project-California-Calling
 # https://elmin-hasanov.github.io/Project-California-Calling/
 
-# **Mein erstes HTML & CSS Projekt**
+# *My First HTML & CSS Project*
 
-## **Projektbeschreibung**
+## *Project Description*
 
-In diesem Projekt präsentiere ich mein Wissen, das ich in **HTML** und **CSS** angewendet habe. Die einzelnen Tage und Ordner dokumentieren meinen Lernfortschritt sowie verschiedene Themen und Techniken, die ich im Laufe der Zeit erarbeitet habe.
+In this project, I present my knowledge applied in HTML and CSS. The individual days and folders document my learning progress as well as various topics and techniques that I have worked on over time.
 
-## **Verwendete Technologien**
+## **Technologies Used**
 
-- **HTML** (Grundlagen, Formulare, Semantik, Strukturierung von Inhalten)
-- **CSS** (Farben, Einheiten, Fonts, Box-Modell, Flexbox, Grid, Media Queries)
-- **Animationen & Transformationen** (Animation, Transition, Transform)
+- **HTML** (Basics, Forms, Semantics, Content Structuring)
+- **CSS** (Colors, Units, Fonts, Box Model, Flexbox, Grid, Media Queries)
+- **Animations & Transformations** (Animation, Transition, Transform)
